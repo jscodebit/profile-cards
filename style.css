@@ -1,6 +1,220 @@
+body {
+    background-color: #F1F2F3;
+}
 .card-header {
     border-bottom: 1px solid #eee;
 }
 .p-40 {
     padding: 40px 0;
 }
+.p-t-20 {
+    padding-top: 20px;
+}
+a, a:hover, a:focus {
+    color: inherit;
+}
+/**Start of Profile one**/
+.profile-card-1 {
+    position: relative;
+    background-image: url('./images/profile-bg-1.jpg');
+    background-position: top;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+    margin: 10px 0;
+    cursor: pointer;
+    max-width: 300px;
+    overflow: hidden;
+    padding-top: 100px;
+}
+.profile-card-1 .profile-content {
+    position: relative;
+    background-color: #fff;
+    padding: 70px 20px 20px 20px;
+    text-align: center;
+}
+.profile-card-1 .profile-content .profile-img {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 10;
+    transition: all 0.25s linear;
+}
+.profile-card-1 .profile-content .profile-img .img{
+    /* position: absolute; */
+    height: 100px;
+    border-radius: 500px;
+    margin: auto;
+    border: 5px solid #fff;
+}
+.profile-card-1 .profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #021830;
+}
+.profile-card-1 .profile-address {
+    color: #777;
+    font-size: 12px;
+    margin: 0px 0px 15px 0px;
+}
+.profile-card-1 .profile-description {
+    font-size: 13px;
+    padding: 5px 10px;
+    color: #777;
+}
+.profile-card-1 .profile-icons .fa {
+    margin: 5px;
+    color: #777;
+}
+/**End of Profile one**/
+
+/**Start of Profile two**/
+.profile-card-2 {
+    max-width: 300px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+/**End of Profile two**/
+
+
+/**Start of Profile three**/
+.profile-card-3 {
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 25px 15px;
+}
+.profile-card-3 .profile-name {
+    font-weight: bold;
+    color: #21304e;
+}
+.profile-card-3 .profile-location {
+    color: #999;
+    font-size: 13px;
+    font-weight: 600;
+}
+.profile-card-3 img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 50%;
+    transition: all linear 0.25s;
+}
+.profile-card-3 .profile-description {
+    font-size: 13px;
+    color: #777;
+    padding: 10px;
+}
+.profile-card-3 .profile-icons {
+    margin: 15px 0px;
+}
+.profile-card-3 .profile-icons .fa {
+    color: #fe455a;
+    margin: 0px 5px;
+}
+/**End of Profile three**/
+
+/**Start of Profile four**/
+.profile-card-4 {
+    max-width: 300px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.profile-card-4 img {
+    transition: all 0.25s linear;
+}
+.profile-card-4 .profile-content {
+    position: relative;
+    padding: 15px;
+    background-color: #FFF;
+}
+.profile-card-4 .profile-name {
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -70px;
+    color: #FFF;
+    font-size: 17px;
+}
+.profile-card-4 .profile-name p {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+.profile-card-4 .profile-description {
+    color: #777;
+    font-size: 12px;
+    padding: 10px;
+}
+.profile-card-4 .profile-overview {
+    padding: 15px 0px;
+}
+.profile-card-4 .profile-overview p {
+    font-size: 10px;
+    font-weight: 600;
+    color: #777;
+}
+.profile-card-4 .profile-overview h4 {
+    color: #273751;
+    font-weight: bold;
+}
+/**End of Profile four**/
+
+/**Start of Profile five**/
+/**End of Profile five**/
+
+/**Start of Profile six**/
+/**End of Profile six**/
+
+/**Start of Profile seven**/
+/**End of Profile seven**/
+
+/**Start of Profile eight**/
+/**End of Profile eight**/
