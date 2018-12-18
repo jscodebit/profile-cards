@@ -174,6 +174,17 @@ a, a:hover, a:focus {
     padding: 15px;
     background-color: #FFF;
 }
+.profile-card-4 .profile-content::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    background-color: #FFF;
+    z-index: 0;
+    transform: skewY(3deg);
+}
 .profile-card-4 .profile-name {
     font-weight: bold;
     position: absolute;
@@ -308,21 +319,13 @@ a, a:hover, a:focus {
     padding: 50px 0px 20px 0px;
     transition: all 0.15s linear;
 }
-.profile-card-6 .profile-overview {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.4) 50% , rgba(255,255,0,0) );
-    color: #FFF;
-    padding: 50px 0px 20px 0px;
-    transition: all 0.15s linear;
-}
 .profile-card-6 .profile-overview h3 {
     font-weight: bold;
+    margin-bottom: 0;
 }
 .profile-card-6 .profile-overview p {
     color: rgba(255,255,255,0.7);
+    margin-bottom: 0;
 }
 /**End of Profile six**/
 
@@ -496,3 +499,77 @@ a, a:hover, a:focus {
     margin: 10px;
 }
 /**End of Profile ten**/
+
+/*Animations for Style 1*/
+.profile-card-1:hover .profile-img {
+    transform: rotateY(180deg);
+}
+/*End of style first profile block*/
+
+/*Animations for Style 2*/
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+/*End of style second profile block*/
+
+/*Animations for Style 3*/
+.profile-card-3:hover img {
+    transform: scale(1.1, 1.1);
+}
+/*End of style third profile block*/
+
+/*Animations for Style 4*/
+.profile-card-4:hover img {
+    transform: rotate(5deg) scale(1.1, 1.1);
+    filter: brightness(110%);
+}
+/*End of style fourth profile block*/
+
+/*Animations for Style 5*/
+.profile-card-5:hover img {
+    transform: rotate(-5deg);
+}
+/*End of style fifth profile block*/
+
+/*Animations for Style 6*/
+.profile-card-6:hover img {
+    filter: brightness(80%);
+}
+.profile-card-6:hover .profile-name {
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.profile-card-6:hover .profile-position {
+    left: 40px;
+}
+.profile-card-6:hover .profile-overview {
+    padding-bottom: 25px;
+}
+/*End of style sixth profile block*/
+
+/*Animations for Style 8th profile block*/
+.profile-card-8:hover {
+    transform: scale(1.05, 1.05);
+}
+/*End of style eighth profile block*/
+
+/*Animations for Style 9th profile block*/
+.profile-card-9:hover {
+    transform: scale(1.05,1.05);
+}
+/*End of style ninth profile block*/
+
+/*Animations for Style 10th profile block*/
+.profile-card-10:hover img {
+    transform: scale(1.05,1.05);
+}
+/*End of style tenth profile block*/
